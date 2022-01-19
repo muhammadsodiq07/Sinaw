@@ -41,6 +41,10 @@ body {
   font-size: 14px;
   line-height: 17px;
 }
+.link-inner:hover {
+  color: #fff;
+  opacity: 1;
+}
 .active {
   color: #fff;
   opacity: 1;
@@ -60,6 +64,17 @@ body {
 .sel-op {
   background: none;
   border: none;
+  color: #fff;
+}
+.bx-globe {
+  position: absolute;
+  top: 30px;
+  right: 250px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.sel-opl {
   color: #fff;
 }
 .lan {
@@ -109,7 +124,7 @@ body {
 .button-plus {
   position: absolute;
   left: 162px;
-  bottom: 8px;
+  bottom: 6px;
   border: none;
   background-color: transparent;
   font-size: 44px;
@@ -466,7 +481,7 @@ input[type="text"]:focus {
 }
 
 .pricing {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 .course-title {
   font-weight: 600;
@@ -668,6 +683,10 @@ input[type="text"]:focus {
   color: rgba(255, 255, 255, 0.7);
   opacity: 0.6;
   text-decoration: none;
+}
+.footer-link:hover {
+  opacity: 1;
+  color: #fff;
 }
 .footer-list {
   margin-bottom: 20px;
