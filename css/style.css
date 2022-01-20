@@ -66,13 +66,7 @@ body {
   border: none;
   color: #fff;
 }
-.bx-globe {
-  position: absolute;
-  top: 30px;
-  right: 250px;
-  font-size: 24px;
-  color: #fff;
-}
+
 
 .sel-opl {
   color: #fff;
@@ -223,11 +217,13 @@ input[type="text"]:focus {
   outline: none;
   color: #fff;
 }
-
+.input-div-class {
+  position: relative;
+}
 .bx-search {
-  position: absolute;
-  right: 70px;
-  bottom: 98px;
+  position:absolute;
+  right: 5px;
+  bottom: 55px;
   color: #bbbbC4;
   font-size: 28px;
   background-color: #1c1d3b;
