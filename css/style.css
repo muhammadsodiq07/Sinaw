@@ -56,10 +56,12 @@ body {
   border-radius: 6px;
   border: none;
   margin-left: 17px;
+  border: 1px solid transparent;
 } 
 .login:hover {
-  background-color: #fff;
-  color: #f5443b;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #f5443b;
 }
 .sel-op {
   background: none;
@@ -251,7 +253,7 @@ input[type="text"]:focus {
   border: 1px solid rgba(154, 156, 203, 0.6);
 }
 .uil-link:hover {
-  background-color: #bbbbC4;
+  background-color: #bebebe65;
   color: #171836;
 }
 .new-friends {
@@ -303,12 +305,7 @@ input[type="text"]:focus {
   text-align: center;
   color: rgba(255, 255, 255, 0.4);
 }
-.laptop-list {
-  width: 276px;
-  height: 485px;
-  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
-  border-radius: 20px;
-}
+
 .tech-div-it {
   padding-top: 10px;
   padding-left: 12px;
@@ -382,6 +379,7 @@ input[type="text"]:focus {
   margin-left: 15px;
 }
 .laptop-ul {
+  height: 500px;
   padding-top: 84px;
   margin-bottom: 65px;
 }
@@ -389,10 +387,26 @@ input[type="text"]:focus {
   margin-top: 20px;
   margin-left: 45px;
   cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #f5443b;
 }
 .class:hover {
-  background-color: #fff;
-  color: #f5443b;
+  background-color: #f5443b;
+  color: #fff;
+}
+.laptop-list {
+  width: 276px;
+  height: 415px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  list-style: none;
+}
+.laptop-list:hover {
+  height: 485px;
+}
+.laptop-list:hover .absalut {
+  opacity: 1;
 }
 .laptop-list2 {
   width: 276px;
@@ -400,6 +414,7 @@ input[type="text"]:focus {
   background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
   border-radius: 20px;
   transition: all 0.3s ease;
+  list-style: none;
 }
 .laptop-list2:hover {
   height: 485px;
@@ -414,14 +429,16 @@ input[type="text"]:focus {
 
 .show-all {
   position: relative;
+  top: 100px;
   left: 500px;
   background-color: transparent;
   color: #f5443b;
   text-decoration: none;
   border: 1px solid #f5443b;
+  cursor: pointer;
 }
 .show-all:hover {
-  background-color: #fff;
+  background-color: #f5443b;
 }
 .live-online {
   padding-top: 190px;
@@ -494,6 +511,7 @@ input[type="text"]:focus {
 }
 
 .priccing-list {
+  list-style: none;
   width: 372px;
   height: 515px;
   background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100%);
@@ -574,16 +592,17 @@ input[type="text"]:focus {
   margin-left: 40px;
 }
 .your-button:hover {
-  background-color: #fff;
-  color: #f5443b;
+  background-color: #f5443b;
+  color: #fff;
+}
+.your-button:active {
+  background-color: transparent;
 }
 .priciing {
   padding-top: 84px;
 }
 .mameme {
   margin-top: 24px;
-  color: #fff;
-  background-color: #f5443b;
 }
 .red-back {
   position: absolute;
