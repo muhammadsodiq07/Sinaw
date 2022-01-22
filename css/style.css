@@ -611,8 +611,10 @@ input[type="text"]:focus {
 .popular {
   position: absolute;
   right: 0;
+  font-size: 15px;
   top: 15px;
   transform: rotate(40deg);
+  color: #fff;
 }
 .get-our-div {
   width: 1200px;
