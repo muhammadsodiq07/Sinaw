@@ -403,7 +403,7 @@ input[type="text"]:focus {
   list-style: none;
 }
 .laptop-list:hover {
-  height: 485px;
+  height: 500px;
 }
 .laptop-list:hover .absalut {
   opacity: 1;
@@ -417,7 +417,7 @@ input[type="text"]:focus {
   list-style: none;
 }
 .laptop-list2:hover {
-  height: 485px;
+  height: 500px;
 }
 .absalut {
   opacity: 0;
